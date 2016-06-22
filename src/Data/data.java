@@ -49,7 +49,7 @@ public class data {
 	}
 
 	public static void main(String[] strs) {
-
+		//hello
 		while (true) {
 			String s = sendGet("http://www.myqx.gov.cn/api/", "mod=Weather&action=GetLastSk");
 			System.out.println(s);
